@@ -160,3 +160,53 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* ### SOCIAL MEDIA DASBOARD ### */
+
+/* # FOLLOWERS GRID # */
+
+.followers-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.followers__grid-cell {
+  overflow: hidden;
+  border-radius: 0.4rem;
+  background-color: var(--navy-50);
+  padding: 2rem 1.5rem;
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+}
+
+.followers__grid-cell .social-address {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--gray-650);
+  font-size: 0.9rem;
+  font-weight: var(--fw-700);
+}
+
+.followers__grid-cell .followers {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.8rem;
+  font-weight: var(--fw-700);
+  color: var(--gray-950);
+}
+
+.followers__grid-cell .subtitle {
+  font-size: 0.9rem;
+  font-weight: var(--fw-400);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--gray-650);
+}
+
+.followers__grid-cell .status {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
