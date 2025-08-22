@@ -43,4 +43,9 @@
   --gray-950: hsl(230, 17%, 14%);
   /* toggle */
   --gray-400: hsl(230, 22%, 74%);
+
+  /* # TYPOGRAPHY # */
+  --ff-inter: "Inter", sans-serif;
+  --fw-400: 400;
+  --fw-700: 700;
 }
