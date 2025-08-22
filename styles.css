@@ -67,6 +67,24 @@ svg {
   display: block;
 }
 
+/* ### UTILITY CLASSES ### */
+
+.light {
+  --main-bg: var(--white);
+  --top-bg-pattern: var(--blue-50);
+  --card-bg: var(--navy-50);
+  --text: var(--gray-650);
+  --text-accent: var(--gray-950);
+}
+
+.dark {
+  --main-bg: var(--gray-950);
+  --top-bg-pattern: var(--gray-900);
+  --card-bg: var(--navy-950);
+  --text: var(--gray-400);
+  --text-accent: var(--white);
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
