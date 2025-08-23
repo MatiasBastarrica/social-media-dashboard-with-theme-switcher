@@ -305,6 +305,7 @@ input:checked + .slider:before {
 .overview__grid-cell {
   display: grid;
   gap: 1.5rem;
+  border-radius: 0.4rem;
   background-color: var(--card-bg);
   padding: 1.8rem 1.5rem;
 }
@@ -333,4 +334,32 @@ input:checked + .slider:before {
   align-items: center;
   gap: 0.3rem;
   font-size: 0.975rem;
+}
+
+@media (min-width: 40em) {
+  .followers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .overview-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 77.5em) {
+  .container {
+    width: 80%;
+  }
+
+  .followers-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
+  }
+
+  .overview-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
+  }
 }
