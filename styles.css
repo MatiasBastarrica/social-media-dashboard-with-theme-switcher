@@ -85,6 +85,35 @@ svg {
   --text-accent: var(--white);
 }
 
+.positive {
+  color: var(--green-500);
+}
+
+.negative {
+  color: var(--red-500);
+}
+
+.facebook-border::before {
+  background: var(--blue-600);
+}
+
+.twitter-border::before {
+  background: var(--blue-500);
+}
+
+.instagram-border::before {
+  background: linear-gradient(
+    90deg,
+    var(--insta-grd-1) 0%,
+    var(--insta-grd-2) 40%,
+    var(--insta-grd-3) 100%
+  );
+}
+
+.youtube-border::before {
+  background: var(--red-700);
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
@@ -178,6 +207,18 @@ input:checked + .slider:before {
   display: grid;
   justify-items: center;
   gap: 1.5rem;
+  position: relative;
+  z-index: 0;
+}
+
+.followers__grid-cell::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  /* background-color: pink; */
+  z-index: -1;
 }
 
 .followers__grid-cell .social-address {
