@@ -75,6 +75,7 @@ svg {
   --card-bg: var(--navy-50);
   --text: var(--gray-650);
   --text-accent: var(--gray-950);
+  --bg-hover: #e1e3f0;
 }
 
 .dark {
@@ -83,6 +84,7 @@ svg {
   --card-bg: var(--navy-950);
   --text: var(--gray-400);
   --text-accent: var(--white);
+  --bg-hover: #333a56;
 }
 
 .positive {
@@ -347,6 +349,16 @@ input:checked + .slider:before {
   gap: 0.3rem;
   font-size: 0.975rem;
 }
+
+/* ### ACTIVE STATES ### */
+
+.followers__grid-cell:hover,
+.overview__grid-cell:hover {
+  background-color: var(--bg-hover);
+  cursor: pointer;
+}
+
+/* ### MEDIA QUERIES ### */
 
 @media (min-width: 40em) {
   .dashboard__intro {
