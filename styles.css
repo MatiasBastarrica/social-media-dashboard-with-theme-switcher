@@ -87,10 +87,12 @@ svg {
 
 .positive {
   color: var(--green-500);
+  font-weight: var(--fw-700);
 }
 
 .negative {
   color: var(--red-500);
+  font-weight: var(--fw-700);
 }
 
 .facebook-border::before {
@@ -209,6 +211,7 @@ input:checked + .slider:before {
   gap: 1.5rem;
   position: relative;
   z-index: 0;
+  text-align: center;
 }
 
 .followers__grid-cell::before {
@@ -250,4 +253,44 @@ input:checked + .slider:before {
   display: flex;
   align-items: center;
   gap: 0.3rem;
+}
+
+/* ### OVERVIEW GRID ### */
+
+.overview-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.overview__grid-cell {
+  display: grid;
+  gap: 1.5rem;
+  background-color: var(--navy-50);
+  padding: 1.8rem 1.5rem;
+}
+
+.overview__grid-cell .header-section,
+.overview__grid-cell .number-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.overview__grid-cell .header-section {
+  color: var(--gray-650);
+  font-size: 1rem;
+  font-weight: var(--fw-700);
+}
+
+.overview__grid-cell .number-section .number {
+  font-size: 2.6rem;
+  font-weight: var(--fw-700);
+  color: var(--navy-950);
+}
+
+.overview__grid-cell .number-section .status {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.975rem;
 }
