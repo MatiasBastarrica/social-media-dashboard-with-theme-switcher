@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-mb-Bnc7r6Ny8x)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/social-media-dashboard-with-theme-switcher/)
 
 ## My process
@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-I learend to toggle between a light and dark color themes when a switch is activated using JavaScript.
+I learned to toggle between a light and dark color themes when a switch is activated using JavaScript.
 
 ### Useful resources
 
