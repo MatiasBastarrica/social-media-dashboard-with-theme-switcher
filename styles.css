@@ -76,6 +76,7 @@ svg {
   --text: var(--gray-650);
   --text-accent: var(--gray-950);
   --bg-hover: #e1e3f0;
+  --slider-before-clr: var(--white);
 }
 
 .dark {
@@ -85,6 +86,7 @@ svg {
   --text: var(--gray-400);
   --text-accent: var(--white);
   --bg-hover: #333a56;
+  --slider-before-clr: var(--gray-950);
 }
 
 .positive {
@@ -184,7 +186,7 @@ main {
   width: 20px;
   left: 4px;
   bottom: 4px;
-  background-color: var(--white);
+  background-color: var(--slider-before-clr);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
